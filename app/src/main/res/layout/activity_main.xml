@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingTop="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_hook1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hook libtest.so"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_call1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="调用自有动态库方法" />
+
+        <Button
+            android:id="@+id/btn_unhook1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unhook"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_hook2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hook libart.so"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_call2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="调用系统动态库方法" />
+
+        <Button
+            android:id="@+id/btn_unhook2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unhook"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_hook3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hook libart.so"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_call3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="调用系统动态库方法" />
+
+        <Button
+            android:id="@+id/btn_unhook3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unhook"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
